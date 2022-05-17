@@ -1,0 +1,27 @@
+.table-style thead tr {
+    background-color: coral;
+    padding: 5px;
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-style tr {
+    background-color: cornsilk;
+    padding: 5px;
+}
+
+tr:hover {background-color: coral;}
+table,
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+h1 , p {
+    text-align: center;
+}
+
+/*table{
+  width: 100%;
+  border-collapse: collapse;
+}*/

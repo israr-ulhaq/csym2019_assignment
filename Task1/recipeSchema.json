@@ -1,0 +1,86 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "title": {
+        "type": "string"
+      },
+      "author": {
+        "type": "string"
+      },
+      "preparation": {
+        "type": "string"
+      },
+      "cooking": {
+        "type": "string"
+      },
+      "serves": {
+        "type": "string"
+      },
+      "ingredients": {
+        "type": "string"
+      },
+      "recipe": {
+        "type": "string"
+      },
+      "kcal": {
+        "type": "integer"
+      },
+      "fat": {
+        "type": "integer"
+      },
+      "saturates": {
+        "type": [
+          "integer",
+          "number"
+        ]
+      },
+      "carbs": {
+        "type": "integer"
+      },
+      "sugars": {
+        "type": [
+          "integer",
+          "number"
+        ]
+      },
+      "fibers": {
+        "type": [
+          "integer",
+          "number"
+        ]
+      },
+      "protein": {
+        "type": "integer"
+      },
+      "salt": {
+        "type": [
+          "number",
+          "integer"
+        ]
+      }
+    },
+    "required": [
+      "id",
+      "title",
+      "author",
+      "preparation",
+      "cooking",
+      "serves",
+      "ingredients",
+      "recipe",
+      "kcal",
+      "fat",
+      "saturates",
+      "carbs",
+      "sugars",
+      "fibers",
+      "protein",
+      "salt"
+    ]
+  }
+}
